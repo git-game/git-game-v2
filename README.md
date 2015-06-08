@@ -1,5 +1,5 @@
 #Level 2
-Congratulations on making it to level two! So I see you have mastered the art of using git show. Now in order to proceed to next level, you must find out who contributed the most to this branch! Below is a riddle whose possible answer choices can be found by running the command:
+Congratulations on making it to level two! So I see you have mastered the art of using git show. Now in order to proceed to next level, you must find out who contributed the most to this branch! Once you find out how to do this, Below is a riddle whose possible answer choices can be found by running the command:
 
 ```$ git log```
 
