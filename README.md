@@ -3,6 +3,4 @@ Congratulations on making it to level two! So I see you have mastered the art of
 
 *Hint:* [git shortlog]([http://git-scm.com/docs/git-shortlog)
 
-**I have many keys but useless locks. I have space but no room. You can enter and also escape. What am I?**
-
 walkman
