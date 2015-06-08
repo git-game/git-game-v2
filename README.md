@@ -1,5 +1,5 @@
 #Level 2
-Congratulations on making it to level two! So I see you have mastered the art of using git show.   Below is a riddle whose possible answer choices can be found by running the command:
+Congratulations on making it to level two! So I see you have mastered the art of using git show. Below is a riddle whose possible answer choices can be found by running the command:
 
 ```$ git log```
 
