@@ -26,7 +26,7 @@ Level 8: ```$ git bisect``` [Following the tutorial is best](http://www.metaltoa
 We hope you learned a lot and will continue to learn more git! Thank you very much!
 
 #More about git
-If you enjoyed this game and want to play a similair game, visit [the first git-game](https://github.com/git-game/git-game)
+If you enjoyed this game and want to play a similair game, visit [the first git-game](https://github.com/git-game/git-game).
 If you want to learn more about git, we encourage you to read [the git reference pages](https://git-scm.com/docs)
 
 Now go out there and **git** more knowledge!
