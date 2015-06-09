@@ -1,6 +1,6 @@
-#Level 5
+#Level 6
 
-You made it to level 5! From now on things will get a little more conceptual.
+You made it to level 6! From now on things will get a little more conceptual.
 Within this branch are four empty directories. You must find out how to fill them.
 In order to fill the directories you first must learn to use [```git submodule```]([here](http://git-scm.com/docs/git-submodule).
 
