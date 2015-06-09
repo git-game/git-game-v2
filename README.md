@@ -1,6 +1,6 @@
-#Level 6
+#Level 7
 
-You made it to level 6! Awesome!!!
+You made it to level 7! Awesome!!!
 
 Are you ready for an even bigger git challenge? Yes? Okay!
 It appears that a group of malicious hackers have hacked GitHub and deleted an important file in our repo.
