@@ -257,3 +257,4 @@ calvin@kwan.com
 henry@garcia.com
 mike@izbicki.com
 kevin@ortega.com
+linus@torvals.com
