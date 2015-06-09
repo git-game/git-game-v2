@@ -7,7 +7,8 @@ deleted an important file in our repo that contained the hidden personal email o
 They also made hundreds commits after so we can't look through the commit history by hand.
 This file also contained the clue to the next level, and without it you cannot advance unless you want to spend years manually looking for it.
 
-You must use ```git grep``` to search through the whole commit history to find these emails, one of which is the clue you are looking for (it'll explicitly tell you what to do next once you display all the emails). 
+You must use ```git grep``` to search through the whole commit history to find these emails.
+The clue you are looking for is the longest of these emails that will be displayed and it'll explicitly tell you what to do to advance.  
 
 *Hint:* Figure out how to use [git grep]() with appropiate flags
 *Hint:* [A better hint than the one above](http://stackoverflow.com/questions/2928584/how-to-grep-search-committed-code-in-the-git-history)
