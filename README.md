@@ -7,8 +7,12 @@ If you don't know what a submodule is you can learn about it [here](http://git-s
 
 Once they are filled, the clue to the next level lies in the README within one of the answer choices.
 The answer may be obvious but how to get to the correct README is a bit more challenging.
-Are you ready? Begin!
+Are you ready? 
+Begin!
 
 *Hint*: you will need **two** submodule commands to correctly fill the directories.
 
-I take your sleep away. I can script and create objects. I am both a language and the name of a bean. What am I?
+I take your sleep away.
+I can script and create objects.
+I am both a language and the name of a bean.
+What am I?
