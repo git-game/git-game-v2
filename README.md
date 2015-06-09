@@ -21,8 +21,6 @@ Level 6: ```$ git grep @ $(git rev-list --all) ```
 
 Level 7: ```$ git cherry-pick arachnid~4 insect~3```
 
-Level 8: ```$ git reflog```
-
-Level 9: ```$ git bisect``` *Following the tutorial is best*
+Level 8: ```$ git bisect``` *Following the tutorial is best*
 
 We hope you learned a lot and will continue to learn more git! Thank you very much!
