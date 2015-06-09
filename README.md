@@ -1,8 +1,10 @@
 #Level 7
 
-You made it to level 7! It appears you have gained a deeper knowledge of git grep!
+You made it to level 7! 
+It appears you have gained a deeper knowledge of git grep!
 
-But alas! The same malicious hackers have hid the content of the next clue amidst the commits of two branches.
+But alas! 
+The same malicious hackers have hid the content of the next clue amidst the commits of two branches.
 Each of these commits has a file, one of which has the consonants of the next clue and the other the vowels.
 The hackers were nice enough to give us the branch names, but they never told us how many commits ago they hid the content. 
 All they left was the following text:
