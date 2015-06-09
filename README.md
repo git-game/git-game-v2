@@ -1,7 +1,14 @@
-#Level 3
-Congratulations on making it to level three!
-I see you were able to find who contributed the most to the snowden branch!
-On this level you will be tested on your ability to see the closest tag from this current commit.
+#Level 4
+Welcome to level 4.
+This level isn’t as *pretty* as you might want it to be but teaches a new view way to view the log.
+Your first step is to find out what flags are needed for ```git log``` to find the tree hashes of the tree objects in this repository.
+If you don't know what a tree hash is you can read more about it [here](https://git-scm.com/book/en/v2/Git-Internals-Git-Objects)
+You can find out more about git log flags [here](http://git-scm.com/docs/git-log)
+
+Once you find the appropiate flags required to pass into ```git log``` your next step is to find the commit message 
+assiciated with the tree hash c7ba8f0.
+
+Once you find the correct commit message associated with the given tree hash, checkout to the branch of the same name 
 
 *Hint:* [git describe](http://git-scm.com/docs/git-describe)
  
