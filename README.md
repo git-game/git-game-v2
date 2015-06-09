@@ -1,7 +1,6 @@
-#Level 2
-Congratulations on making it to level two! So I see you have mastered the art of using git show.
-Now in order to proceed to next level, you must find out who contributed the most to this branch!
-Once you find out how to do this, checkout the branch name of this certain contributor.
-(I know what you're thinking, and no this is not a riddle)
+#Level 3
+Congratulations on making it to level three!
+I see you were able to find who contributed the most to the snowden branch!
+On this level you will be tested on your ability to see the closest tag from this current commit.
 
-*Hint:* [git shortlog](http://git-scm.com/docs/git-shortlog)
+*Hint:* [git describe](http://git-scm.com/docs/git-describe)
