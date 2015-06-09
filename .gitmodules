@@ -1,9 +1,6 @@
 [submodule "Bugs"]
 	path = Bugs
 	url = https://github.com/anon-atlas/Bugs.git
-[submodule "Java"]
-	path = Java
-	url = https://github.com/anon-atlas/Java.git
 [submodule "Trees"]
 	path = Trees
 	url = https://github.com/anon-atlas/Trees.git
