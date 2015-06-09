@@ -22,4 +22,4 @@ https://www.kernel.org/pub/software/scm/git/docs/
 You should always check the README.md file for your next clue!
 To start on your epic journey type the following command:
 
-```$ git checkout level1```
+```$ git checkout level0```
