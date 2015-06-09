@@ -2,10 +2,14 @@
 
 You made it to level 7! It appears you have gained a deeper knowledge of git grep!
 
-But alas! The same malicious hackers have dispersed the contents of your next clue into another branch admist 2 commits.
-Fortunately enough, we have found the commit hashes which contain the two halves to the clue.
-The hashes are () and ().
+But alas! The same malicious hackers have dispersed the content of the next clue amidst the commits of two unknown branches!
+One has the consonants of the name of the next branch to checkout and the other has the vowels. 
+The only help they left behind was the following text:
 
-You will need to find a way to somehow *pick* the two halves and merge them together.
+branch = spider --> 8/4 commits below the head
+branch = ant --> 6/2 commits below the head
 
-*Hint*: [git cherry-pick]()
+Your job is to decipher what this means and safely retrieve the proper commits from each branch using ```git cherry-pick```.
+Once you do this, you can output the file contents properly using ```cat```.
+If you need some help on ```git cherry pick``` [click here](http://git-scm.com/docs/git-cherry-pick).
+*Hint:* for outputting the files properly you would want to you something like ```cat < firstfile.txt && cat < secondfile.txt```
