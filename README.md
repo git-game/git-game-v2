@@ -1,7 +1,11 @@
 #git-game-v2
 Second version of the terminal based game that teaches users git commands
 
-Hello there! This is the sequel to the famous git-game! Throughout the course of this awesome adventure you will be presented with 10 puzzles. To proceed to the successive levels you will need to execute special git commands in order to solve a series of riddles which will ultimately lead you to the end of the game. Once you complete the game you will have acquired a deeper knowledge of the git version control system.
+Hello there! 
+This is the sequel to the famous git-game! 
+Throughout the course of this awesome adventure you will be presented with 10 puzzles. 
+To proceed to the successive levels you will need to execute special git commands in order to solve a series of riddles and tasks. 
+Once you complete the game you will have acquired a deeper knowledge of the git version control system.
 
 ##Let’s begin! 
 clone this repository using the command below:
