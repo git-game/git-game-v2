@@ -14,6 +14,11 @@ branch = arachnid. Four below the HEAD
 branch = insect. Three below the HEAD
 
 Your job is to decipher what this means and safely retrieve the proper commits from each branch using ```git cherry-pick```.
+
+In order for the command to work properly you must checkout to both the branches that contain the commits.
+
+Then checkout back to cherry.
+
 Once you do this, you are to output the file contents properly using ```cat``` to see how the consonants and vowels combine.
 
 If you need some help on ```git cherry pick``` [go here](http://git-scm.com/docs/git-cherry-pick).
