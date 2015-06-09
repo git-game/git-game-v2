@@ -16,6 +16,9 @@ Once you do this, you are to output the file contents properly using ```cat``` t
 
 If you need some help on ```git cherry pick``` [go here](http://git-scm.com/docs/git-cherry-pick).
 
-*Hint:* for outputting the files properly you would want to you do something like ```cat < firstfile.txt && cat < secondfile.txt```. 
+*Hint:* for outputting the files properly you would want to you do something like:
+
+```cat < firstfile.txt && cat < secondfile.txt```. 
+
 HEAD is also a reference to the currently checked out commit of a branch, typically the most recent commit. 
 (i.e. HEAD~1 means 1 below the HEAD).
