@@ -10,3 +10,5 @@ is to use them to find the commit message associated with the tree hash 3331d0b.
 
 Once you find the correct commit message associated with the given tree hash, checkout to the branch of the same name as the message.
 It will only be one word.
+
+Hint: https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History
