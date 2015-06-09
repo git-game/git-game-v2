@@ -4,7 +4,7 @@ You made it to level 8!
 It appears you have gained a deeper knowledge of git grep!
 
 But alas! 
-The same malicious hackers have hid the content of the next clue amidst the commits of two branches.
+The same malicious [hackers](http://en.wikipedia.org/wiki/Anonymous_%28group%29) have hid the content of the next clue amidst the commits of two branches.
 Each of these commits has a file, one of which has the consonants of the next clue and the other the vowels.
 The hackers were nice enough to give us the branch names, but they never told us how many commits ago they hid the content. 
 All they left was the following text:
