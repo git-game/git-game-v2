@@ -18,7 +18,9 @@ If you need some help on ```git cherry pick``` [go here](http://git-scm.com/docs
 
 *Hint:* for outputting the files properly you would want to you do something like:
 
-```cat < a.txt && cat < b.txt```. 
+```cat < consonants.txt && cat < vowels.txt``` 
+
+it may look a little weird when output, but remember it is one word!
 
 HEAD is also a reference to the currently checked out commit of a branch, typically the most recent commit. 
 (i.e. HEAD~1 means 1 below the HEAD of a current branch while master~1 means one below the HEAD of the master branch).
