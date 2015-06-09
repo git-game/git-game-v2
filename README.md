@@ -1,14 +1,7 @@
-#Level 5
+#Level 6
 
-You made it to level 5! From now on things will get a little more conceptual.
-Within this branch are four empty directories. Find out how to fill them.
-In order to fill the directories you first must learn to use ```git submodule```
-If you don't know what a submodule is you can learn about it [here](http://git-scm.com/docs/git-submodule).
+You made it to level 6! Awesome!!!
 
-Once they are filled, the clue to the next level lies in the README within one of the answer choices.
-The answer may be obvious but how to get to the correct README is a bit more challenging.
-Are you ready? Begin!
-
-*Hint*: you will need **two** submodule commands to correctly fill the directories.
-
-I take your sleep away. I can script and create objects. I am both a language and the name of a bean. What am I?
+Just kidding not awesome! It seems we have a problem. It appears some malcious hackers faked git commands and
+deleted an important file that contained the hidden personal email of Edward Snowden and made multiple commits after.
+This file contained the clue to the next level, and without it you cannot advance. Figu 
