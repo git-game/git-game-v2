@@ -9,9 +9,3 @@ Once you find the appropiate flags required to pass into ```git log``` your next
 assiciated with the tree hash c7ba8f0.
 
 Once you find the correct commit message associated with the given tree hash, checkout to the branch of the same name.
-
-*Hint:* [git describe](http://git-scm.com/docs/git-describe)
- 
- 
- 
- 
