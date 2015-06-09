@@ -1,9 +1,8 @@
 #Level 5
 
 You made it to level 5! From now on things will get a little more conceptual.
-Within this branch are four empty directories. Find out how to fill them.
-In order to fill the directories you first must learn to use ```git submodule```
-If you don't know what a submodule is you can learn about it [here](http://git-scm.com/docs/git-submodule).
+Within this branch are four empty directories. You must find out how to fill them.
+In order to fill the directories you first must learn to use [```git submodule```]([here](http://git-scm.com/docs/git-submodule).
 
 Once they are filled, the clue to the next level lies in the README of the submodule whose name is the answer to the riddle below.
 The answer may be obvious but how to get to the correct README is a bit more challenging.
