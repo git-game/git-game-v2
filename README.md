@@ -7,6 +7,7 @@ Viral and malicious attacks are a few of their go to tactics.
 This time, they were nice enough not to ruin our entire program. 
 We had a working program before which would output the lyrics of row row row your boat. 
 Now instead due to the evil acts of the hackers it reads row row row your car. 
+
 You must find the error they introduced by using a command called ```git bisect```
 You will now be able to traverse through all of your commits with the speed of binary search. 
 Once you find the correct commit with the error. 
