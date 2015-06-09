@@ -5,7 +5,7 @@ Wow, look at you!
 You completed git-game-v2 which means you are very good at git! 
 If you are curious below are the commands you should have used. 
 
-Level 0: ```$ git ls-files | xargs cat | wc -l```
+Level 0: ```$ git ls-files | xargs wc -l```
 
 Level 1: ```$ git show *commit hash*```
 
