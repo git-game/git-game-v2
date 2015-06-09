@@ -11,3 +11,4 @@ You must use ```git grep``` to search through the commit history to find these e
 
 *Hint:* Figure out how to use [git grep]() with appropiate flags
 *Hint:* [A better hint than the one above](http://stackoverflow.com/questions/2928584/how-to-grep-search-committed-code-in-the-git-history)
+ 
