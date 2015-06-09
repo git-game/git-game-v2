@@ -15,9 +15,7 @@ Level 3: ```$ git describe```
 
 Level 4: ```$ git log --pretty=format: ''tree hash: %t --> subject: %s'' ```
 
-Level 5: ```$ git submodule init```
-	
-	```$ git submodule update```
+Level 5: ```$ git submodule init #then $ git submodule update```
 
 Level 6: ```$ git grep <regex> $(git rev-list --all) ```
 
