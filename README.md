@@ -3,7 +3,7 @@ Second version of the terminal based game that teaches users git commands
 
 Hello there! 
 This is the sequel to the famous git-game! 
-Throughout the course of this awesome adventure you will be presented with 10 puzzles. 
+Throughout the course of this awesome adventure you will be presented with 9 puzzles. 
 To proceed to the successive levels you will need to execute special git commands in order to solve a series of riddles and tasks. 
 Once you complete the game you will have acquired a deeper understanding of the git version control system.
 
