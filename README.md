@@ -7,4 +7,5 @@ You can find out more about git log flags [here](http://git-scm.com/docs/git-log
 
 Once you find the appropiate flags required to pass into ```git log``` your next step is to use them to find the commit message associated with the tree hash 3331d0b.
 
-Once you find the correct commit message associated with the given tree hash, checkout to the branch of the same name.
+Once you find the correct commit message associated with the given tree hash, checkout to the branch of the same name as the message.
+It'll only be one word.
