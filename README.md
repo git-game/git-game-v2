@@ -21,4 +21,4 @@ If you need some help on ```git cherry pick``` [go here](http://git-scm.com/docs
 ```cat < a.txt && cat < b.txt```. 
 
 HEAD is also a reference to the currently checked out commit of a branch, typically the most recent commit. 
-(i.e. HEAD~1 means 1 below the HEAD).
+(i.e. HEAD~1 means 1 below the HEAD of a current branch while master~1 means one below the HEAD of the master branch).
