@@ -10,7 +10,10 @@ They also made hundreds commits after they deleted it so we can't look through t
 Now this is where you come in!
 
 You must use [```git grep```](http://git-scm.com/docs/git-grep) to search through the whole commit history to find these emails.
-Your next clue is the name of the user that is before the domain name ```hint.edu```.
+Your next clue is the name of the user that is before the domain name ```hint.edu```. 
+When you find it checkout to the branch name that shares this name.
+
+For example, is the email was ```yahoo@hint.edu``` then you are to checkout the the branch called *yahoo*.
 
 *Hint:* It's best to use git grep with git rev-list as specificied by 
 [this](http://stackoverflow.com/questions/2928584/how-to-grep-search-committed-code-in-the-git-history) stack overflow post.
