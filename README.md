@@ -9,4 +9,5 @@ Once you find the appropiate flags your next step is to use them to find the com
 After finding the correct commit message, checkout to the branch of the same name as the message.
 It should only be one word!
 
-Hint: There are many different flags that can be associated with git log. Outputting using [pretty](https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History) is most likely what you should be looking for.
+Hint: There are many different flags that can be associated with git log. 
+Outputting using [pretty](https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History) is most likely what you should be looking for.
