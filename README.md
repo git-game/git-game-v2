@@ -1,29 +1,33 @@
 #git-game-v2
-Second version of the terminal based game that teaches users git commands
 
-Hello there! 
-This is the sequel to the famous git-game! 
-Throughout the course of this awesome adventure you will be presented with 9 puzzles. 
-To proceed to the successive levels you will need to execute special git commands in order to solve a series of riddles and tasks. 
-Once you complete the game you will have acquired a deeper understanding of the git version control system.
+This repo is the sequel to the [git-game](https://github.com/git-game/git-game).
+There are nine levels, and each level teaches you about one of git's more advanced features.
+In particular, you'll learn how to use the commands: `git ls-files`, `git bisect`, [list all the commands here].
 
-##Let’s begin! 
-clone this repository using the command below:
+Let’s begin! 
+First, clone this repository using the command below:
+```
+$ git clone https://github.com/git-game/git-game-v2.git
+```
+You're now ready to start level1.
+Good luck!
 
-```$ git clone https://github.com/git-game/git-game-v2.git```
+##Level 1
 
-##Want to play the first git-game?
+The first level demonstrates the power of `git ls-files`.
+Running `git ls-files` lists all the files in the current commit.
+Checkout the [documentation](http://git-scm.com/docs/git-ls-files) for more details.
+Can you figure out why running the standard Unix `ls` doesn't list all the files in the current commit?
 
-[first git-game](https://github.com/git-game/git-game)
+Your task for this level is to use `git ls-files` to count the total number of *lines* in this commit.
+In other words, count the number of lines in each file, then add all these numbers together to get the total.
 
-##Don’t know a lot about git?
-Check these links out
+To advance to level 2 you need to checkout the branch named after the total. 
+So if the total number is 780 then you would run:
+```
+$ git checkout 780
+```
 
-https://github.com/mikeizbicki/ucr-cs100/blob/2015winter/textbook/cheatsheets/git-cheatsheet.md
-https://github.com/mikeizbicki/ucr-cs100/tree/2015winter/textbook/tools/git/advanced-git
-https://www.kernel.org/pub/software/scm/git/docs/ 
-
-You should always check the README.md file for your next clue!
-To start on your epic journey type the following command:
-
-```$ git checkout level1```
+*Hint:* 
+You will need to combine `git ls-files` with other Unix utilities using pipes. 
+[This stackoverflow question](http://stackoverflow.com/questions/4822471/count-number-of-lines-in-a-git-r) has a useful example that will get you started.
