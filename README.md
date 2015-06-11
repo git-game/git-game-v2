@@ -1,9 +1,10 @@
 #Level 4
+
 Looks like you know your stuff!
 I see you were able to find who contributed the most to the snowden branch!
-On this level you will be tested on your ability to see the closest tag from this current commit.
-You can do this by running another helpful git [command](http://git-scm.com/docs/git-describe)
-Once you find the name of the tag, checkout to it and view the README for further instructions on how to advance. 
+On this level you will need to use a command that finds the most recent tag that is reachable from this current commit.
+Once you find the name of the tag, checkout to it in so you may advance. 
 
-``READ THIS``: word-0-676767 <--- if this is your output you should only use ''word'' 
+To find the name of the tag, you will need the help of this [command](http://git-scm.com/docs/git-describe)
 
+``IMPORTANT HINT``: word-0-676767 <--- if this is your output you should only use ''word''
