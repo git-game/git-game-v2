@@ -17,7 +17,7 @@ Level 5: ```$ git log --pretty=format: ''tree hash: %t --> subject: %s'' ```
 
 Level 6: ```$ git submodule init #then $ git submodule update```
 
-Level 7: ```$ git grep @ $(git rev-list --all) ```
+Level 7: ```$ git grep @ $(git rev-list history) ```
 
 Level 8: ```$ git cherry-pick arachnid~4 insect~3```
 
