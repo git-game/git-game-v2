@@ -23,7 +23,8 @@ You can see an example of how to use ```git cherry-pick``
 
 **IMPORTANT:** In order for the command to work properly you must checkout to both the branches that contain the commits.
 Then checkout back to the cherry branch and cherry-pick accordingly.
-Once you do this, you are to output the file contents properly using ```cat``` to see how the consonants and vowels combine.
+Once you do this, you are to output the file contents properly using ```cat``` to see how the consonants and vowels combine,
+The name of the next branch will be the output that you get. Checkout to it to continue on your journey.
 
 *Hint:* for outputting the files properly you would want to you do something like:
 ```cat consonants.txt && cat vowels.txt```.
