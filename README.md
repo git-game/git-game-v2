@@ -2,7 +2,17 @@
 
 This repo is the sequel to the [git-game](https://github.com/git-game/git-game).
 There are nine levels, and each level teaches you about one of git's more advanced features.
-In particular, you'll learn how to use the commands: `git ls-files`, `git bisect`, [list all the commands here].
+In particular, you'll learn how to use the commands:
+
+* `git ls-files`                  
+* `git cherry-pick`               
+* `git bisect`                    
+* `git show`          
+* `git shortlog`                  
+* `git submodule`
+* `git describe`                  
+* `git log [<options>]`           
+* `git grep [<regex>] [<options>]`
 
 Let’s begin! 
 First, clone this repository using the command below:
