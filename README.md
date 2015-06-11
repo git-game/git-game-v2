@@ -27,7 +27,7 @@ If you do not see the words racecar and you see twinkle, that represents a good 
 This means no error existed either, so therefore you would type in ```git bisect good```.
 
 Once the process says it has found the error commit, run ```ls```.
-If there is a file named message view its contents to proceed forth to glory!
+If there is a file named **message** view its contents to proceed forth to glory!
 If not, run ```git bisect reset``` and repeat as much as necessary until the correct answer is reached and the file is viewable.
 
 *Hint: * If you are still having trouble, here is a wonderful tutorial on how to use ```git bisect``` http://www.metaltoad.com/blog/beginners-guide-git-bisect-process-elimination
