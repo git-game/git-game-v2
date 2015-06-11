@@ -9,6 +9,7 @@ Each of these commits has a file, one of which has the consonants of the next cl
 The hackers were nice enough to leave us with the following text:
 
 **branch1 = arachnid. Four below the HEAD**
+
 **branch2 = insect. Three below the HEAD**
 
 In order to retrieve the two files containing the contents we will need to use the
