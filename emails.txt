@@ -12,3 +12,4 @@ calvin@kwan.com
 juan@ruelas.com
 john@dixon.com
 calvin@kwan.com
+juan@ruelas.com
