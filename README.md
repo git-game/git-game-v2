@@ -7,4 +7,4 @@ Once you find the name of the tag, checkout to it in so you may advance.
 
 To find the name of the tag, you will need the help of this [command](http://git-scm.com/docs/git-describe)
 
-*IMPORTANT HINT*: word-0-676767 <--- if this is your output you should only use ''word''
+*IMPORTANT HINT*: word-0-676767 <--- if this is your output you should only use ''word'' when you checkout to the next level.
