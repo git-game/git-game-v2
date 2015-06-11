@@ -1,11 +1,12 @@
 #Level 6
 
-You made it to level 6! From now on things will get a little more conceptual.
-Within this branch are four empty directories. You must find out how to fill them.
-In order to fill the directories you first must learn to use [```git submodule```](http://git-scm.com/docs/git-submodule).
+You made it to level 6! As you have just experienced, things will be slightly harder from now on.
+Within this branch are four empty directories, or as git calls them: submodules.
+Submodules allow foreign repositories to be embedded within a dedicated subdirectory of the source tree, always pointed at a particular commit.
+In order to fill the directories you must use the [git submodule](http://git-scm.com/docs/git-submodule) command.
 
-Once they are filled, the clue to the next level lies in the README of the submodule whose name is the answer to the riddle below.
-The answer may be obvious but how to get to the correct README is a bit more challenging.
+Once you fill the directories, the clue to the next level lies in the README of the submodule whose name is the answer to the riddle below.
+The answer may be obvious but getting to the README is a bit more challenging.
 Are you ready? 
 Begin!
 
