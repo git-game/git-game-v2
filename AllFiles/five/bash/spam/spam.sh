@@ -21,4 +21,4 @@ done
 	echo quit
 	sleep 1
 
-} | telnet mail.cs.ucr.edu 25
+} | t
