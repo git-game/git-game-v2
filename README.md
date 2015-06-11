@@ -16,3 +16,5 @@ When you find it checkout to the branch name that shares this name.
 For example, if the email was **yahoo@hint.edu** then you are to checkout the the branch called **yahoo**.
 
 *Hint:* It's best to use git grep with git rev-list as specificied by [this stack overflow question](http://stackoverflow.com/questions/2928584/how-to-grep-search-committed-code-in-the-git-history).
+
+*Hint:* If you followed the link in the above hint, **DO NOT** use the ```--all``` option.
