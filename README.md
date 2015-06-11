@@ -11,6 +11,7 @@ Are you ready?
 Begin!
 
 *Hint*: you will need **two** submodule commands to correctly fill the directories.
+*Hint*: the second answer to [this stack overflow question](http://stackoverflow.com/questions/3796927/how-to-git-clone-including-submodules) may be of assitance if you are stuck.
 
 I take your sleep away.
 I can script and create objects.
