@@ -1,43 +1,33 @@
-#git-game-v2
+#Level 9
 
-This repo is the sequel to the [git-game](https://github.com/git-game/git-game).
-There are nine levels, and each level teaches you about one of git's more advanced features.
-In particular, you'll learn how to use the commands:
+The [hackers](http://en.wikipedia.org/wiki/Anonymous_%28group%29) finally have left!
+But before they escaped they ruined the lyrics of our favorite song!
+Your task is as follows: use [```git bisect```](http://git-scm.com/docs/git-bisect) to repair the lyrics to their original format.
+Now I know what you're thinking, why not use a linear search to find where they destroy the lyrics?
 
-* `git ls-files`                  
-* `git cherry-pick`               
-* `git bisect`                    
-* `git show`          
-* `git shortlog`                  
-* `git submodule`
-* `git describe`                  
-* `git log [<options>]`           
-* `git grep [<regex>] [<options>]`
+Well with ten thousand commits this is nearly impossible!
 
-Let’s begin! 
-First, clone this repository using the command below:
-```
-$ git clone https://github.com/git-game/git-game-v2.git
-```
-You're now ready to start level1.
-Good luck!
+But ```git bisect``` uses binary search, a much faster search algorithm that repeatedly cuts the search range in half until it finds what it needs!
 
-##Level 1
+The first step is to initalize git bisect by typing in ```git bisect start```.
+This begins the git bisect process.
+Next, we recommend you open a second terminal and run the command ```git log --pretty=oneline --reverse | head -1```.
+That will automatically give you the commit hash of the initial commit.
+Then you should run ```git bisect good``` and type in the initial commit hash given by the command above.
+Git bisect needs a starting point before the error was introduced.
+Next run the following command in the second terminal: ```git log --pretty=oneline --reverse | tail -1```.
+This gives you the last commit hash (no one wants to traverse 10,000 commits one by one to get to the last).
+Then run ```git bisect bad``` and type in also the hash of the last commit after typing in git bisect bad.
+What this does is gives git bisect an ending point where the error is definitely inside the recent commits.
 
-The first level demonstrates the power of `git ls-files`.
-Running `git ls-files` lists all the files in the current commit.
-Checkout the [documentation](http://git-scm.com/docs/git-ls-files) for more details.
-Can you figure out why running the standard Unix `ls` doesn't list all the files in the current commit?
+At this point, git bisect will now execute the binary search traversing through history.
+The [hackers](http://en.wikipedia.org/wiki/Anonymous_%28group%29) changed the lyrics of our favorite song from ```twinkle to racecar```.
+As you are traversing through the commits, cat the ```test.txt``` file,  if you see the words racecar within the ```test.txt``` file, type in ```git bisect bad``` indicating that the error is within this half of the commits.
+If you do not see the words racecar and you see twinkle, that represents a good commit as the error commit was not introduced before that point. You would type ```git bisect good```. If the ```test.txt``` is not present and it's just the README in the directory this represents a point in time that the ```test.txt``` file did not exist.
+This means no error existed either, so therefore you would type in ```git bisect good```.
 
-Your task for this level is to use `git ls-files` to count the total number of *lines* in this commit.
-In other words, count the number of lines in each file, then add all these numbers together to get the total.
+Once the process says it has found the error commit, run ```ls```.
+If there is a file named message view its contents to proceed forth to glory!
+If not, run ```git bisect reset``` and repeat as much as necessary until the correct answer is reached and the file is viewable.
 
-To advance to level 2 you need to checkout the branch named after the total. 
-So if the total number is 780 then you would run:
-```
-$ git checkout 780
-```
-
-*Hint:* 
-You will need to combine `git ls-files` with other Unix utilities using pipes. 
-[This stackoverflow question](http://stackoverflow.com/questions/4822471/count-number-of-lines-in-a-git-r) has a useful example that will get you started.
+*Hint: * If you are still having trouble, here is a wonderful tutorial on how to use ```git bisect``` http://www.metaltoad.com/blog/beginners-guide-git-bisect-process-elimination
