@@ -12,7 +12,7 @@ Once you fill the directories, the clue to the next level lies in the `README.md
 > I am both a language and the name of a bean.
 > What am I?
 
-The answer may be obvious but getting to the README is a bit more challenging.
+The answer may be obvious but getting to the `README.md` is a bit more challenging.
 Are you ready? 
 Begin!
 
