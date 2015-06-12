@@ -8,10 +8,11 @@ The options you are to pass will allow you to view the tree hashes of the tree [
 
 Once you find the appropiate flags your next step is to use them to find the commit message associated with the tree hash *3331d0b*.
 
-After finding the correct commit message assicaited with the above hash, checkout the branch of the same name as the message.
+After finding the correct commit message associated with the above hash, checkout the branch of the same name as the message.
 It should only be one word!
 
 *Hint*: There are many different flags that can be associated with git log. 
 Outputting using [`pretty`](https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History) is most likely what you should be looking for.
 
-*Extra*: If you want to further you understanding of git objects, you can read about how [git stores these objects](http://alblue.bandlem.com/2011/08/git-tip-of-week-objects.html).
+*Extra*: If you want to further your understanding of git objects, 
+you can read about how [git stores these objects](http://alblue.bandlem.com/2011/08/git-tip-of-week-objects.html).
