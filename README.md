@@ -11,8 +11,8 @@ In particular, you'll learn how to use the commands:
 * `git shortlog`                  
 * `git submodule`
 * `git describe`                  
-* `git log [<options>]`           
-* `git grep [<regex>] [<options>]`
+* `git log`           
+* `git grep`
 
 Let’s begin! 
 First, clone this repository using the command below:
