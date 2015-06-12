@@ -7,9 +7,9 @@ But alas! The same malicious hackers have hidden the content of the next clue am
 Each of these commits has a file, one of which has the consonants of the next clue and the other has the vowels.
 The hackers were nice enough to leave us with the following text:
 
-**The first branch is arachnid. The commit is four below the `HEAD`**
+**The first branch is arachnid. The commit is four below its most recent commit**
 
-**The second branch is insect. The commit is three below the `HEAD`**
+**The second branch is insect. The commit is three below its most recent commit**
 
 In order to retrieve the two files containing the contents we will need to use the
 [`git cherry-pick`](http://git-scm.com/docs/git-cherry-pick) command.
