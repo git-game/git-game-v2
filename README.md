@@ -18,5 +18,5 @@ Begin!
 
 *Hint*: you will need **two** submodule commands to correctly fill the directories.
 
-*Hint*: the second answer to [this stack overflow question](http://stackoverflow.com/questions/3796927/how-to-git-clone-including-submodules) may be of assitance if you are stuck.
+*Hint*: the second answer to [this stack overflow question](http://stackoverflow.com/questions/3796927/how-to-git-clone-including-submodules) may be of assistance if you are stuck.
 
