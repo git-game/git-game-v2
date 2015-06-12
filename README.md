@@ -8,7 +8,7 @@ This file contained the personal emails of [Linus Torvalds](http://en.wikipedia.
 They also made hundreds commits after they deleted it so we can't look through the commit history by hand.
 Now this is where you come in!
 
-You must use [git grep](http://git-scm.com/docs/git-grep) to search through the whole commit history to find these emails.
+You must use [`git grep`](http://git-scm.com/docs/git-grep) to search through the whole commit history to find these emails.
 Your next clue is the name of the user that is before the domain name `hint.edu`. 
 When you find it checkout the branch name that shares this name.
 
