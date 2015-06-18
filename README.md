@@ -19,12 +19,12 @@ First, clone this repository using the command below:
 ```
 $ git clone https://github.com/git-game/git-game-v2.git
 ```
-You're now ready to start level1.
-Good luck!
 
 **You can win a badge for completing this game!**
-
 learn more about badges here: https://openbadgefactory.com/faq
+
+You're now ready to start level1.
+Good luck!
 
 ##Level 1
 
