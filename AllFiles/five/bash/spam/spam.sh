@@ -1,7 +1,7 @@
 #!/bin/bash
 while read message
 do
-	messageBody="$messageBody$messsage\n"
+messageBody="$messageBody$messsage\n"
 done
 {
 	echo helo ucr.edu
@@ -20,5 +20,4 @@ done
 	sleep 1
 	echo quit
 	sleep 1
-
-} | t
+} 
