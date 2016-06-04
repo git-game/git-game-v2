@@ -1,4 +1,4 @@
-#git-game-v2
+# git-game-v2
 
 This repo is the sequel to the [git-game](https://github.com/git-game/git-game).
 There are nine levels, and each level teaches you about one of git's more advanced features.
@@ -26,7 +26,7 @@ learn more about badges here: https://openbadgefactory.com/faq
 You're now ready to start level1.
 Good luck!
 
-##Level 1
+## Level 1
 
 The first level demonstrates the power of `git ls-files`.
 Running `git ls-files` lists all the files in the current commit.
