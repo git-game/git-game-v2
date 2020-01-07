@@ -1,3 +1,5 @@
+[![Run on Repl.it](https://repl.it/badge/github/git-game/git-game-v2)](https://repl.it/github/git-game/git-game-v2)
+
 #git-game-v2
 
 This repo is the sequel to the [git-game](https://github.com/git-game/git-game).
