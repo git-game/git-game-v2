@@ -1,4 +1,4 @@
-#The End
+# The End
 
 Wow, look at you! 
 You completed git-game-v2 which means you are very good at git! 
@@ -32,7 +32,7 @@ We hope you learned a lot and will continue to learn more git! Thank you very mu
  **Please allow up to 2 weeks for the badge to be delivered!**
  **We try to send badges as soon as possible, Thank You!**
 
-###More about git
+### More about git
 
 If you enjoyed this game and want to play a similair game, visit [the first git-game](https://github.com/git-game/git-game).
 If you want to learn more about git, we encourage you to read [the git reference pages](https://git-scm.com/docs)
